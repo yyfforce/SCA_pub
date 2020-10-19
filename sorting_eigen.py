@@ -1,5 +1,5 @@
 def sorting_eigen(matrix):
-    matrix_size = len(matrix)
+    #matrix_size = len(matrix)
 
     #eigenv and eigenvector
     v,w = scipy.linalg.eig(matrix)
